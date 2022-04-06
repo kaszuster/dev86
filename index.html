@@ -1,1 +1,742 @@
-Coming soon ...
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta name="generator" content="Hugo 0.80.0" />
+
+    <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=GTM-TCRRCSJ' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TCRRCSJ');
+</script>
+
+
+<title></title>
+<style>
+     
+    .rad-fade-in {
+        will-change: opacity, transform;
+        animation-name: rad-fade-in-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-fallback {
+        0% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fonts-loaded .rad-fade-in.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+    }
+
+    .fonts-loaded .rad-fade-in.rad-animate {
+        animation-name: rad-fade-in;
+        animation-duration: 1.1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+     
+    .rad-fade-in-long {
+        will-change: opacity, transform;
+        animation-name: rad-fade-in-long-fallback;
+        animation-duration: 8s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-long-fallback {
+        0% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fonts-loaded .rad-fade-in-long.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+    }
+
+    .fonts-loaded .rad-fade-in-long.rad-animate {
+        animation-name: rad-fade-in-long;
+        animation-duration: 2s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-long {
+        0% {
+            opacity: 0;
+        }
+
+        20% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+     
+    .rad-fade-down {
+        will-change: opacity, transform;
+        animation-name: rad-fade-down-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        transform: translateY(-30px);
+    }
+
+    @keyframes rad-fade-down-fallback {
+        0% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        75% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .fonts-loaded .rad-fade-down.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    .fonts-loaded .rad-fade-down.rad-animate {
+        animation-name: rad-fade-down;
+        animation-duration: 1.1s;
+    }
+
+    @keyframes rad-fade-down {
+        0% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+     
+    .rad-scale-down {
+        will-change: opacity, transform;
+        animation-name: rad-scale-down-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        transform-origin: 50% 0;
+    }
+
+    @keyframes rad-scale-down-fallback {
+        0% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        75% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+
+    .fonts-loaded .rad-scale-down.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+        transform: scaleY(0.95);
+    }
+
+    .fonts-loaded .rad-scale-down.rad-animate {
+        animation-name: rad-scale-down;
+        animation-duration: 1.1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-scale-down {
+        0% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+</style>
+
+
+<link rel="stylesheet" href="http://www.kamba.de/css/main.css"/>
+
+<link rel="stylesheet" href="http://www.kamba.de/plugins/icomoon/style.css"/>
+
+<link rel="stylesheet" href="http://www.kamba.de/css/custom.css"/>
+
+<link rel="stylesheet" href="http://www.kamba.de/css/kamba.css"/>
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+	
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCRRCSJ"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+
+	<header class="header fixed-top rad-animation-group" id="header">
+  <div class="container rad-fade-in">
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+      <a class="navbar-brand" href="http://www.kamba.de/">
+        <img
+                class="img-responsive"
+                src="/img/Logo_Kamba.svg"
+                alt="Header Logo"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent, #header"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="http://www.kamba.de/">HOME</a>
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="/#portfolio"
+              >PROJEKTE</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="/#contact"
+              >KONTAKT</a
+            >
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+	
+	
+<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
+    <div class="rad-showcase__bg">
+        <img class="lozad img-responsive img-clip-left-backward"
+             src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+             data-src="http://www.kamba.de/img/me.png"
+             data-srcset="http://www.kamba.de/img/me.png 1x, http://www.kamba.de/img/me_2x.png 2x"
+             alt="Showcase keyboard and mouse image"/>
+    </div>
+    <div class="container">
+        <div class="rad-showcase__bg rad-showcase__bg--mobile">
+            <img class="lozad img-responsive img-clip-left-backward"
+                 src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                 data-src="http://www.kamba.de/img/me_mobile.png"
+                 alt="Showcase keyboard and mouse image"
+            />
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                <h1 class="display-1">
+                    Hallo, ich bin Kamil<span class='accent'>.</span>
+                    <br/>
+                    <span class="subtitle">// freiberuflicher Software Engineer</span
+                    >
+                </h1>
+                <p class="lead">
+                    Mit langjähriger Projekterfahrung und dem Fokus auf Java im Enterprise Umfeld, helfe ich meinen Kunden bei der Konzeption von Softwarearchitektur und der Realisierung Ihrer Projekte.
+                </p>
+                <div class="row">
+                    <div>
+                    <a href="/#contact" class="btn btn-primary">
+                        Kontaktformular
+                        <span class="material-icons">message</span>
+                    </a>
+                    </div>
+                    <div class="platform-links">
+                        
+                        <div class="platform-link-container">
+                            <a href="https://www.linkedin.com/in/kamil-backhaus-b97a9b222/" target="_blank" class="center-block">
+                                <span class="icomoon">linkedin</span>
+                            </a>
+                        </div>
+                        
+                        <div class="platform-link-container">
+                            <a href="https://www.xing.com/profile/Kamil_Backhaus/" target="_blank" class="center-block">
+                                <span class="icomoon">xing</span>
+                            </a>
+                        </div>
+                        
+                        <div class="platform-link-container">
+                            <a href="mailto:kamil.backhaus@dev86.de?subject=Kontaktanfrage" target="_blank" class="center-block">
+                                <span class="material-icons">email</span>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+	
+	
+	
+	
+<section id="portfolio" class="section section--border-bottom">
+    <div class="container">
+        <h2 class="rad-animation-group rad-fade-down">
+            Projekte<span class="accent">.</span>
+        </h2>
+        
+        <div class="row row--padded rad-animation-group rad-fade-down   mt-5">
+            
+            <div class="col-12 col-md-7 pl-md-0 text-right">
+                <img class='img-responsive img-clip-right-forward' src="http://www.kamba.de/img/works/radioapi/index.jpg" alt="Radio-API" />
+            </div>
+            <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+                <h3>Radio-API</h3>
+                <p class="lead">Verarbeitung, Bereitstellung und Verbreitung von Programmdaten und Playlisten des WDR für alle Plattformen.</p>
+                <p class="lead"><span class="font-weight-bold">Technologien:</span> Java, Spring, Camel, Solr</p>
+                <p class="lead"><span class="font-weight-bold">Leistungen:</span> Architekturberatung, Konzeption, Entwicklung und Dokumentation</p>
+                
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#portfolioNo0">Details<span class="material-icons">visibility</span></a>
+                
+            </div>
+            
+        </div>
+
+        
+            <div class="modal fade" id="portfolioNo0" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header font-weight-bold">
+                            <div class="font-weight-bold">Radio-API</div>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="text-justify"> In diesem Projekt werden Daten aus unterschiedlichsten Quellen (FTP, Rest, SOAP, Pull, Push, RMI Clients, Live Events aus dem Studio, etc.) und Formaten angeliefert. Eine Vielzahl an Importern, die isoliert betrieben werden, werten diese Daten aus und persistieren sie in optimierten Form in einer NoSQL Datenbank. Verschiedene Exporter arbeiten mit diesen Daten und spielen sie gezielt Drittsystemen zu.
+Die Importer und Exporter arbeiten asynchron und nahezu in Echtzeit. Unter Berücksichtigung hoher Lastspitzen bietet eine Rest API Zugriff auf diese Daten und ermöglicht den Wellen-Apps (Einslive, WDR2, etc.) sowie den Webseiten des WDR, Zugriff auf Playlisten und Sendepläne. Mehrere Bestandssysteme wurden durch diese API abgelöst, so wurde das Produkt zum zentralen System von Sendedaten (prospektiv) und Playlisten (retrospektiv), indem es sie konsolidiert, verarbeiten und verbreiten.</p>
+                            <p><span class="font-weight-bold">Eingesetzte Technologien & Frameworks: </span>Microservices, Java 11, Maven, Git, Spring Boot, Apache Camel, Rest, Soap, Solr, EhCache, Akamai, Ascii Doc, PlantUml, Swagger, Scrum</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+        
+        <div class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row  ">
+            
+            <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+                <h3>WDR Webangebote und Mediendatenbank</h3>
+                <p class="lead">Das CMS in Kombination mit der MDB bilden das Rückgrat des gesamten Webangebots des WDR und dessen Wellen.</p>
+                <p class="lead"><span class="font-weight-bold">Technologien:</span> Java, Spring, Sophora-CMS, Primefaces</p>
+                <p class="lead"><span class="font-weight-bold">Leistungen:</span> Architekturberatung, Weiterentwicklung Bestandssystem, Entwicklung neuer Services, automatisierung des Release-Prozesses, Optimierung der Build-Prozesse, Performance Optimierungen</p>
+                
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#portfolioNo1">Details<span class="material-icons">visibility</span></a>
+                
+            </div>
+            <div class="col-12 col-md-7 pl-md-0 text-right">
+                <img class='img-responsive img-clip-left-forward' src="http://www.kamba.de/img/works/sophora/index.jpg" alt="WDR Webangebote und Mediendatenbank" />
+            </div>
+            
+        </div>
+
+        
+            <div class="modal fade" id="portfolioNo1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header font-weight-bold">
+                            <div class="font-weight-bold">WDR Webangebote und Mediendatenbank</div>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="text-justify"> Eine Vielzahl von Redakteuren aus den unterschiedlichsten Bereichen (Sport, Wirtschaft, Politik, etc.) pflegen Medieninhalte in der zentralen Mediendatenbank (ZMDB). Diese Inhalte bestehen aus Binärdaten zu Audios und Videos in verschiedenen Formaten, Qualitäten und Metadaten. Die hier gepflegten Daten werden an die Webausspielung (CMS und Akamai Edge Server) sowie Drittsysteme (ARD Mediathek) verteilt, um sie dem Endbenutzer über Web und App anzubieten. Das Webangebot wird auf Basis des Sophora CMS realisiert.
+Die umgesetzten Anforderungen in diesem Themenkomplex sind sehr vielseitig und unterschiedlich komplex:
+- Ausspielung neuer Pflegbarer Komponenten - Einführung neuer Dokumentstrukturen für Projekte wie dem Kandidatencheck - Konzeption und Entwicklung einer Google AMP Ausspielung in Form eines neuen Ausspielkanals aller Bestandsbeiträge - Planung, Entwicklung und Integration neuer Services wie dem Reaction Service, der Benutzern ermöglicht mittels Emojis auf Beiträge zu reagieren - Beratung des Architektur-Teams - Performance Optimierung - Schulung des Kollegiums in Form von Barcamps zu Themen wie Jenkins Pipeline, Git/Git Flow, Clean-Code und Problem der vorliegenden Architektur </p>
+                            <p><span class="font-weight-bold">Eingesetzte Technologien & Frameworks: </span>Java 11, Maven, Spring, Sophora CMS, JCR, Solr, MySQL, JSP, Primefaces, XMLT, Groovy, Jenkins, CI/CD, CXF, Apache Tomcat, Docker</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+        
+        <div class="row row--padded rad-animation-group rad-fade-down  mb-0 ">
+            
+            <div class="col-12 col-md-7 pl-md-0 text-right">
+                <img class='img-responsive img-clip-right-backward' src="http://www.kamba.de/img/works/referenzer/index.jpg" alt="Referencer (über Adesso AG)" />
+            </div>
+            <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+                <h3>Referencer (über Adesso AG)</h3>
+                <p class="lead">Aus hunderten realisierten Projekten und einer noch größeren Anzahl an Technologien und Problemen die passende Referenz finden.</p>
+                <p class="lead"><span class="font-weight-bold">Technologien:</span> Java 8, Spring Boot, Angular, Elasticsearch, Apache POI</p>
+                <p class="lead"><span class="font-weight-bold">Leistungen:</span> Architektur und Realisierung</p>
+                
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#portfolioNo2">Details<span class="material-icons">visibility</span></a>
+                
+            </div>
+            
+        </div>
+
+        
+            <div class="modal fade" id="portfolioNo2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header font-weight-bold">
+                            <div class="font-weight-bold">Referencer (über Adesso AG)</div>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="text-justify"> In diesem Projekt wurde ein Tool erstellt, das die Verwaltung und Suche von Projektreferenzen ermöglicht. Bis zur Entwicklung dieses Tools wurden Projektreferenzen in Word Dateien dokumentiert. Bei Angebotserstellung oder der Teilnahme an Ausschreibungen mussten Projektreferenzen mühsam in diesen Word Dateien gesucht und zusammengestellt werden.
+Der Referencer hat diesen Schritt optimiert, indem er die Daten über LDAP ausgelesen und in einer NoSQL Datenbank abgelegt hat. Die Facettensuche (Technologien, Branchen, Volumen, beteilige Rollen, Schlagworte, etc.) und Exportfunktion (PDF und Word Format), auf Basis verschiedener Vorlagen, konnte den Angebotsprozess in Qualität und Aufwand verbessern. Die Datenpflege erfolgt weiterhin in Word Dateien, ohne dass der bisherige Dokumentationsprozess anpasst werden musste. </p>
+                            <p><span class="font-weight-bold">Eingesetzte Technologien & Frameworks: </span>Self-Contained System, Java 8, Spring Boot, Maven, Git, Angular, Elasticsearch, Apache POI, LDAP, Kanban</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+        
+    </div>
+</section>
+
+	
+	
+
+	
+	
+<section id="experience" class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row flex-md-row rad-fade-down">
+            <div class="col-12 col-md-5">
+                <h2>Beruflicher Werdegang<span class="accent">.</span></h2>
+                <p class="lead">
+                    Mehrjährige Projekterfahrung in einer vielfalt von Projekten und Technologien.
+                </p>
+            </div>
+            <div class="col-12 col-md-7 mt-5 mt-md-0">
+                
+                <div class="experience">
+                    <div class="experience__date">04/2019 - heute</div>
+                    <div class="experience__title">Freiberufliche Tätigkeit</div>
+                    
+                    <div class="experience__tasks">
+                        Schwerpunkt auf Java, Spring, NoSQL, CI/CD, Architektur, Clean-Code
+                    </div>
+                    
+                    <div class="experience__company"></div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience__date">03/2017 - 04/2019</div>
+                    <div class="experience__title">Festanstellung als Senior Software Engineer</div>
+                    
+                    <div class="experience__tasks">
+                        Schwerpunkt auf Java, Spring, relationale Datenbanken, Architektur
+                    </div>
+                    
+                    <div class="experience__company">Adesso AG</div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience__date">06/2008 - 08/2010</div>
+                    <div class="experience__title">Festanstellung als Anwendungsentwickler</div>
+                    
+                    <div class="experience__tasks">
+                        Schwerpunkt auf PHP, Zend Framework, MySQL
+                    </div>
+                    
+                    <div class="experience__company">db-central Gmbh</div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+<section id="experience" class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row flex-md-row rad-fade-down">
+            <div class="col-12 col-md-5">
+                <h2>Akademischer Werdegang<span class="accent">.</span></h2>
+                <p class="lead">
+                    Zielorientiertes, methodisches Vorgehen auf Basis aktueller Standards.
+                </p>
+            </div>
+            <div class="col-12 col-md-7 mt-5 mt-md-0">
+                
+                <div class="experience">
+                    <div class="experience__date">10/2014 - 02/2017</div>
+                    <div class="experience__title">Technische Hochschule Köln</div>
+                    <div class="experience__tasks"><b>Masterstudium: Informatik</b></div>
+                    <div class="experience__tasks">Abschlussarbeit &#34;Eine Heuristik zur Eignungsprüfung von Microservice-Architekturen&#34;</div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience__date">09/2010 - 07/2017</div>
+                    <div class="experience__title">Fontys Venlo University of Applied Sciences</div>
+                    <div class="experience__tasks"><b>Bachelorstudium: Software Engineering</b></div>
+                    <div class="experience__tasks">Praktisch orientierter Bachelor-Studiengang mit Schwerpunkt auf Konzeption und Umsetzung von Software Projekten.</div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience__date">08/2006 - 06/2008</div>
+                    <div class="experience__title">db-central Gmbh</div>
+                    <div class="experience__tasks"><b>Ausbildung zum Fachinformatiker</b></div>
+                    <div class="experience__tasks">Fachrichtung Anwendungsentwicklung</div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+	
+	
+
+	
+	
+<section id="contact" class="section section--contact">
+    <script type="text/javascript">var submitted = false;</script>
+    <div class="container">
+        <div class="contact">
+            <h2>Kontakt<span class="accent">.</span></h2>
+            <div class="row pt-2">
+                <div class="col-12 col-lg-7" style="position: relative">
+                    <div id="congrats"
+                         style="position: absolute; z-index: 1; top: 50%; opacity: 0; transition: opacity 2s;">
+                        Vielen Dank für deine Nachricht ...
+                    </div>
+                    <form name="gform" id="gform" action="https://docs.google.com/forms/d/e/1FAIpQLSf_qNwz79lhZfSCX0Bv3he_Ab9Le4ogDSrKegan6YVm_FVzKw/formResponse"
+                          method="POST" target="hidden_iframe"
+                          onsubmit="submitted=true;" style="transition: opacity 1s;">
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <input type="text" name="entry.256049302"
+                                       placeholder="Name*" required/>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="email" name="entry.104886863"
+                                       placeholder="E-Mail Adresse*" required/>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-12">
+                                <textarea cols="30" rows="3"
+                                          name="entry.1622578930"
+                                          placeholder="Deine Nachricht*"
+                                          required></textarea>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div style="float:left; margin-right: 15px"><input type="checkbox" required/></div>
+                            <div style="float:left; width: 90%">Hiermit willige ich ein, dass meine personenbezogenen Daten für den Zweck der Kontaktaufnahme gespeichert werden.*</div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">
+                                    Nachricht senden
+                                    <span class="material-icons">rocket_launch</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                            onload="if(submitted) {}"></iframe>
+                </div>
+                <div class="col-12 col-lg-5 contact__info">
+                    <h4>Telefon Nummer</h4>
+                    <span>&#43;49 151 / 614 847 28</span>
+                    <h4>Email</h4>
+                    <span><a href="mailto:kamil.backhaus@dev86.de">kamil.backhaus@dev86.de</a></span>
+                    <h4>Adresse</h4>
+                    <span>Kamil Backhaus<br />Endenicher Straße 268<br />53121 Bonn</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var formEl = document.getElementById("gform");
+        var congEl = document.getElementById("congrats");
+        formEl.onsubmit = function () {
+            formEl.style.opacity = '0';
+            congEl.style.opacity = '1';
+        };
+        formEl.ontransitionend = function (e) {
+            if (e.propertyName === 'opacity') {
+                formEl.style.pointerEvents = "none";
+            }
+        }
+    </script>
+</section>
+
+
+	
+	
+
+	
+
+	<footer class="footer">
+  <div class="container">
+    <div class="footer__left">
+      <div class="footer__copy">
+        © Kamil Backhaus - kamba.de - 2022
+      </div>
+    </div>
+    <div class="footer__links">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://www.kamba.de/impressum">IMPRESSUM</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</footer>
+
+    <script src='http://www.kamba.de/js/rad-animations.js'></script>
+<script src='http://www.kamba.de/js/library/lozad.min.js'></script>
+<script>
+  window.addEventListener("load", function() {
+    var observer = window.lozad(".lozad", {
+      rootMargin: window.innerHeight / 2 + "px 0px",
+      threshold: 0.01
+    }); 
+    observer.observe();
+  });
+</script>
+<script src='http://www.kamba.de/js/library/jquery-3.3.1.slim.min.js'></script>
+<script src='http://www.kamba.de/js/library/bootstrap.min.js'></script>
+<script src='http://www.kamba.de/js/sticky-header.js'></script>
+<script src='http://www.kamba.de/js/library/smooth-scroll.polyfills.min.js'></script>
+<script src='http://www.kamba.de/js/library/fontfaceobserver.js'></script>
+<script>
+  (function(w) {
+    
+    if (w.document.documentElement.className.indexOf("fonts-loaded") > -1) {
+      return;
+    }
+    var fontA = new w.FontFaceObserver("Inter", {
+      weight: 300
+    });
+    var fontB = new w.FontFaceObserver("Inter", {
+      weight: 400
+    });
+    var fontC = new w.FontFaceObserver("Inter", {
+      weight: 500
+    });
+    var fontD = new w.FontFaceObserver("Inter", {
+      weight: 600
+    });
+    var fontE = new w.FontFaceObserver("Inter", {
+      weight: 700
+    });
+    var fontF = new w.FontFaceObserver("Inter", {
+      weight: 900
+    });
+    w.Promise.all([fontA.load(), fontC.load(), fontF.load()]).then(function() {
+      w.document.documentElement.className += " fonts-loaded";
+    });
+  })(this);
+</script>
+<script>
+  const scroll = new SmoothScroll('a[href*="#"]');
+    $('a.nav-link').on('click', () => {
+      const navbar = $('.navbar-collapse');
+      if (navbar && navbar.hasClass('show')) {
+        $('.navbar-toggler').click();
+      }
+    })
+</script>
+
+</body>
+
+</html>
